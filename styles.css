@@ -251,10 +251,6 @@ section .dox p {
         height: 100vh;
     }
 
-    section {
-        border-bottom: 1px solid var(--zinc-800);
-    }
-
     section .stats {
         flex-direction: column;
     }
