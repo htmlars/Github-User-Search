@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github User Search</title>
+    <link rel="icon" type="image/svg" href="Images/github-mark.svg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div class="alert">
+        <div class="left">
+            <img src="Images/error.svg" alt="Error">
+            <p>User couldn't be found!</p>
+        </div>
+        <img class="x" src="Images/x.svg" alt="X">
+    </div>
+
+    <main>
+
+        <nav>
+            <form action="">
+                <div class="bar">
+                    <img class="search" src="Images/search.svg" alt="Search Icon">
+                    <input type="text" id="search" name="search" placeholder="Enter a Github Username...">
+                </div>
+                <div class="toggle">
+                    <a id="html_url" href="https://github.com/" target="_blank"><img src="Images/link.svg"
+                            alt="link"></a>
+                </div>
+            </form>
+        </nav>
+
+        <section>
+
+            <div class="user">
+                <img src="Images/github-mark.svg" alt="Profilpicture" id="pfp">
+                <div class="names">
+                    <p id="username">@github</p>
+                    <p id="bio">How People Build Software.</p>
+                </div>
+            </div>
+            <div class="stats">
+                <div class="card">
+                    <h1>Followers</h1>
+                    <p id="followers">32451</p>
+                </div>
+                <div class="card">
+                    <h1>Following</h1>
+                    <p id="following">0</p>
+                </div>
+                <div class="card">
+                    <h1>Repositories</h1>
+                    <p id="repos">489</p>
+                </div>
+            </div>
+            <div class="dox">
+                <div class="card">
+                    <img src="Images/house.svg" alt="House">
+                    <p id="location">San Francisco, CA</p>
+                </div>
+                <div class="card">
+                    <img src="Images/work.svg" alt="Work">
+                    <p id="company">@Github</p>
+                </div>
+            </div>
+
+        </section>
+
+    </main>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
