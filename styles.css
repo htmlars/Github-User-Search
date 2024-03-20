@@ -240,6 +240,21 @@ section .dox p {
 }
 
 @media screen and (max-width: 500px) {
+    body {
+        padding: 0;
+        justify-content: start;
+    }
+
+    main {
+        border: none;
+        border-radius: 0;
+        height: 100vh;
+    }
+
+    section {
+        border-bottom: 1px solid var(--zinc-800);
+    }
+
     section .stats {
         flex-direction: column;
     }
