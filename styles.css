@@ -245,17 +245,54 @@ section .dox p {
         justify-content: start;
     }
 
+    .alert {
+        position: absolute;
+        margin-top: .6575rem;
+    }
+
     main {
         border: none;
         border-radius: 0;
         height: 100vh;
     }
 
+    section {
+        margin-top: 1rem;
+        padding: 0;
+    }
+
+    section .user {
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid var(--zinc-800);
+        ;
+        border-bottom: 1px solid var(--zinc-800);
+        ;
+    }
+
     section .stats {
         flex-direction: column;
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid var(--zinc-800);
+        ;
+        border-bottom: 1px solid var(--zinc-800);
+        ;
     }
 
     section .stats .card {
         width: 100%;
+    }
+
+    section .dox {
+        border-radius: 0;
+        border-left: none;
+        border-right: none;
+        border-top: 1px solid var(--zinc-800);
+        ;
+        border-bottom: 1px solid var(--zinc-800);
+        ;
     }
 }
